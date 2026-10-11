@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Future Innovators",
+    "slug": "future-innovators",
+    "scheme": "futureinnovators",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E4D4FF",
+        "foregroundImage": "./assets/images/logo-mark.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single",
+      "name": "Future Innovators",
+      "shortName": "Future Innovators",
+      "themeColor": "#1C1730",
+      "backgroundColor": "#F7F3EC"
+    },
+    "plugins": ["expo-router", "expo-font"]
+  }
+}

@@ -1,0 +1,13 @@
+node_modules
+site/node_modules
+server/node_modules
+site/dist
+server/data/messages.json
+.DS_Store
+.expo
+site/.expo
+site/.claude
+*.log
+scripts/models
+site/assets/images/originals
+site/assets/images/WhatsApp Image *
