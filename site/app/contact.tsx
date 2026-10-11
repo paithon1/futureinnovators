@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <View>
       <Head>
-        <title>Contact | Future Innovators</title>
+        <title>Contact | The Future Innovators</title>
       </Head>
       <Container>
         <View style={{ paddingTop: isMobile ? 36 : 56, paddingBottom: 12 }}>

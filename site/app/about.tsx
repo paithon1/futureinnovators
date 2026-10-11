@@ -26,14 +26,14 @@ export default function About() {
   return (
     <View>
       <Head>
-        <title>About | Future Innovators</title>
+        <title>About | The Future Innovators</title>
       </Head>
       <Container>
         <View style={{ paddingTop: isMobile ? 36 : 56, paddingBottom: 28 }}>
           <Eyebrow>About</Eyebrow>
           <Title>Empowering the engineers of this generation</Title>
           <Lead>
-            Future Innovators began with a belief that every student should get to see themselves as a creator,
+            The Future Innovators began with a belief that every student should get to see themselves as a creator,
             problem-solver, and innovator.
           </Lead>
         </View>

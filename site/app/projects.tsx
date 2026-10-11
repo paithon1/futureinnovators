@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <View>
       <Head>
-        <title>Projects | Future Innovators</title>
+        <title>Projects | The Future Innovators</title>
       </Head>
       <Container>
         <View style={{ paddingTop: isMobile ? 36 : 56, paddingBottom: 20 }}>

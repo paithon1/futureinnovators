@@ -67,7 +67,7 @@ export function Header() {
           <Pressable style={styles.brand} onPress={() => setOpen(false)}>
             <Image source={images.logo} style={styles.logo} />
             <View>
-              <Text style={styles.brandName}>Future Innovators</Text>
+              <Text style={styles.brandName}>{org.name}</Text>
               <Text style={styles.brandTag}>Engineering education</Text>
             </View>
           </Pressable>
@@ -146,7 +146,7 @@ export function Footer() {
           <Text style={styles.footerLink}>{org.location}</Text>
         </View>
       </View>
-      <Text style={styles.legal}>© {new Date().getFullYear()} Future Innovators. All rights reserved.</Text>
+      <Text style={styles.legal}>© {new Date().getFullYear()} {org.name}. All rights reserved.</Text>
     </View>
   );
 }

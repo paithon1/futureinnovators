@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Future Innovators",
+    "name": "The Future Innovators",
     "slug": "future-innovators",
     "scheme": "futureinnovators",
     "version": "1.0.0",
@@ -23,8 +23,8 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro",
       "output": "single",
-      "name": "Future Innovators",
-      "shortName": "Future Innovators",
+      "name": "The Future Innovators",
+      "shortName": "The Future Innovators",
       "themeColor": "#1C1730",
       "backgroundColor": "#F7F3EC"
     },

@@ -26,7 +26,7 @@ function isEmail(value) {
 }
 
 app.get("/api/health", (_req, res) => {
-  res.json({ ok: true, organization: "Future Innovators" });
+  res.json({ ok: true, organization: "The Future Innovators" });
 });
 
 app.post("/api/contact", (req, res) => {
@@ -73,5 +73,5 @@ if (fs.existsSync(WEB_DIST)) {
 }
 
 app.listen(PORT, () => {
-  console.log(`Future Innovators server running on http://localhost:${PORT}`);
+  console.log(`The Future Innovators server running on http://localhost:${PORT}`);
 });

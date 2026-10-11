@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <View>
       <Head>
-        <title>Home | Future Innovators</title>
+        <title>Home | The Future Innovators</title>
       </Head>
 
       <Container>

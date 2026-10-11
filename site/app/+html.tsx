@@ -9,7 +9,7 @@ export default function Root({ children }: PropsWithChildren) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta
           name="description"
-          content="Future Innovators is a nonprofit bringing hands-on engineering and STEM workshops to students in Atlanta and around the world."
+          content="The Future Innovators is a nonprofit bringing hands-on engineering and STEM workshops to students in Atlanta and around the world."
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

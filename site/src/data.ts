@@ -2,7 +2,7 @@ import { images } from "./images";
 
 export const org = {
   name: "The Future Innovators",
-  shortName: "Future Innovators",
+  shortName: "The Future Innovators",
   legalName: "The Future Innovators Corp.",
   phone: "+1 (770) 370-9322",
   phoneHref: "tel:+17703709322",
