@@ -1,7 +1,6 @@
 import Head from "expo-router/head";
-import { Image, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import { Body, Container, Eyebrow, Lead, Photo, Title } from "../src/components/Blocks";
-import { PrimaryButton } from "../src/components/Chrome";
 import { useLayout } from "../src/hooks";
 import { images } from "../src/images";
 import { colors, fonts, radius } from "../src/theme";
@@ -77,31 +76,7 @@ export default function About() {
       </View>
 
       <Container>
-        <View style={[styles.split, { flexDirection: isMobile ? "column-reverse" : "row", paddingVertical: isMobile ? 48 : 72 }]}>
-          <View style={styles.founderCard}>
-            <Image source={images.founder} style={styles.founderPhoto} accessibilityLabel="Rishi Pai, founder" />
-            <Text style={styles.founderName}>Rishi Pai</Text>
-            <Text style={styles.founderRole}>Founder and CEO</Text>
-          </View>
-          <View style={{ flex: 1.3, gap: 14 }}>
-            <Eyebrow>Meet the founder</Eyebrow>
-            <Title size="md">A student building the classroom he wanted others to have</Title>
-            <Body>
-              Rishi is a student at Northview High School in Johns Creek, Georgia. He started Future Innovators from
-              a love of hands-on learning and a commitment to widening access to STEM in his Atlanta community — and
-              now beyond it.
-            </Body>
-            <Body>
-              With a background in engineering and a habit of teaching, he leads workshops himself and works with
-              schools to keep the programs practical, welcoming, and ambitious.
-            </Body>
-            <PrimaryButton label="Work with us" href="/contact" />
-          </View>
-        </View>
-      </Container>
-
-      <Container>
-        <View style={[styles.split, { flexDirection: isMobile ? "column" : "row", paddingBottom: 56 }]}>
+        <View style={[styles.split, { flexDirection: isMobile ? "column" : "row", paddingVertical: isMobile ? 48 : 64 }]}>
           <View style={{ flex: 1, gap: 12 }}>
             <Eyebrow>Atlanta home base</Eyebrow>
             <Title size="md">Workshops in the places students already gather</Title>
@@ -148,26 +123,6 @@ const styles = StyleSheet.create({
     color: "#4A4556",
     fontSize: 16,
     lineHeight: 26,
-  },
-  founderCard: {
-    flex: 0.8,
-    alignItems: "center",
-    gap: 10,
-  },
-  founderPhoto: {
-    width: 240,
-    height: 280,
-    borderRadius: radius.lg,
-  },
-  founderName: {
-    fontFamily: fonts.displayBold,
-    color: colors.ink,
-    fontSize: 22,
-  },
-  founderRole: {
-    fontFamily: fonts.sansMedium,
-    color: colors.muted,
-    fontSize: 14,
   },
   caption: {
     fontFamily: fonts.sans,

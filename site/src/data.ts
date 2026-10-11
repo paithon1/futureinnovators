@@ -76,15 +76,15 @@ export const projects = [
     region: "Rural Telangana, India",
     place: "Jadcherla · online classroom",
     season: "Summer–Fall 2026",
-    students: "Grades 6–7",
+    students: "60 students",
     summary:
-      "A live online math program for sixth and seventh graders at Nachiketa Vidya Mandir, covering the fundamental topics they meet in school.",
+      "A live online math program for 60 sixth and seventh graders at Nachiketa Vidya Mandir, covering the fundamental topics they meet in school.",
     location: "Online, with Nachiketa Vidya Mandir, Kodgal, Jadcherla, Telangana, India",
     cover: images.math2026_2,
     gallery: math2026Gallery,
     paragraphs: [
       "After the winter AI workshops, we stayed with Nachiketa Vidya Mandir — this time over video, so the partnership could continue through summer and fall without another travel-heavy visit. Students gather in their hall in rural Telangana; the lesson is taught live from Atlanta.",
-      "The 2026 program is built for grades 6 and 7. Sessions walk through the core ideas already in their school math: number sense, factors and multiples, fractions, ratios, and proportional reasoning. The goal is not a side enrichment track. It is to make the fundamentals clearer so students can keep up in class and go further when they are ready.",
+      "The 2026 program is built for 60 students in grades 6 and 7. Sessions walk through the core ideas already in their school math: number sense, factors and multiples, fractions, ratios, and proportional reasoning. The goal is not a side enrichment track. It is to make the fundamentals clearer so students can keep up in class and go further when they are ready.",
       "Teaching online into a village classroom is a different kind of workshop. Students sit together, follow the screen, ask questions, and work problems in real time. The aim matches our in-person work: keep the room interactive, make foundational ideas stick, and give younger students a steadier start in STEM.",
     ],
   },
