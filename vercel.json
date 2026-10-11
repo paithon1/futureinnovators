@@ -1,0 +1,13 @@
+{
+  "installCommand": "npm install && npm --prefix site install",
+  "buildCommand": "npm --prefix site run export:web",
+  "outputDirectory": "site/dist",
+  "framework": null,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/"
+    }
+  ]
+}

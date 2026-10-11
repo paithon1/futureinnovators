@@ -5,8 +5,8 @@
     "dev": "concurrently -n server,web -c cyan,magenta \"npm run server\" \"npm run web\"",
     "server": "npm --prefix server run dev",
     "web": "npm --prefix site run web",
-    "build": "npm --prefix site exec expo export --platform web",
-    "start": "npm --prefix server start"
+    "build": "npm --prefix site run export:web",
+    "start:server": "npm --prefix server start"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"
