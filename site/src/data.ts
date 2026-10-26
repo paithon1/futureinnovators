@@ -7,6 +7,8 @@ export const org = {
   phone: "+1 (770) 370-9322",
   phoneHref: "tel:+17703709322",
   email: "thefutureinnovators25@gmail.com",
+  youtube: "https://www.youtube.com/@thefutureinnovators_rpai",
+  youtubeHandle: "@thefutureinnovators_rpai",
   location: "Atlanta, Georgia, USA",
   foundedNote: "Student-founded nonprofit",
 };

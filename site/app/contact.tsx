@@ -35,6 +35,14 @@ export default function Contact() {
             <Text style={styles.detailValue} onPress={() => Linking.openURL(`mailto:${org.email}`)}>
               {org.email}
             </Text>
+            <Text style={styles.detailLabel}>YouTube</Text>
+            <Text
+              accessibilityRole="link"
+              style={styles.detailValue}
+              onPress={() => Linking.openURL(org.youtube)}
+            >
+              {org.youtubeHandle}
+            </Text>
             <Text style={styles.detailLabel}>Based in</Text>
             <Text style={styles.detailValue}>{org.location}</Text>
             <Text style={styles.note}>
